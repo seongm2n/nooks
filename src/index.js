@@ -7,6 +7,7 @@ import { UseTabs } from './useState/useTabs';
 import { Intro } from './useEffect/intro';
 import { UseTitle } from './useEffect/useTitle';
 import { UseClick } from './useEffect/useClick';
+import { UseHover } from './useEffect/useHover';
 
 import './styles.css';
 
@@ -28,6 +29,8 @@ export default function App() {
 				<UseTitle />
 				<hr />
 				<UseClick />
+				<hr />
+				<UseHover />
 			</div>
 		</>
 	);
