@@ -8,10 +8,13 @@ import { Intro } from './useEffect/intro';
 import { UseTitle } from './useEffect/useTitle';
 import { UseClick } from './useEffect/useClick';
 import { UseHover } from './useEffect/useHover';
+
 import { UseConfirm } from './useEffect/useConfirm';
 import { UsePreventLeave } from './useEffect/usePreventLeave';
 import { UseBeforeLeave } from './useEffect/useBeforeLeave';
 import { UseFadeIn } from './useEffect/useFadeIn';
+
+import { UseNetwork } from './useEffect/useNetwork';
 
 import './styles.css';
 
@@ -53,6 +56,12 @@ export default function App() {
 					<UseBeforeLeave />
 					<hr />
 					<UseFadeIn />
+				</div>
+				<br />
+				<br />
+				<div className='content'>
+					<UseNetwork />
+					<hr />
 				</div>
 			</div>
 		</>

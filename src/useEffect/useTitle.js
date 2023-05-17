@@ -16,7 +16,7 @@ export const UseTitle = () => {
 	return (
 		<div>
 			<h1>Title</h1>
-			<div>Loading... -> Home</div>
+			<h2>Loading... -- Home</h2>
 		</div>
 	);
 };
