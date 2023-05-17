@@ -8,6 +8,7 @@ import { Intro } from './useEffect/intro';
 import { UseTitle } from './useEffect/useTitle';
 import { UseClick } from './useEffect/useClick';
 import { UseHover } from './useEffect/useHover';
+import { UseConfirm } from './useEffect/useConfirm';
 
 import './styles.css';
 
@@ -31,6 +32,8 @@ export default function App() {
 				<UseClick />
 				<hr />
 				<UseHover />
+				<hr />
+				<UseConfirm />
 			</div>
 		</>
 	);
