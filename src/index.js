@@ -6,6 +6,7 @@ import { UseTabs } from './useState/useTabs';
 
 import { Intro } from './useEffect/intro';
 import { UseTitle } from './useEffect/useTitle';
+import { UseClick } from './useEffect/useClick';
 
 import './styles.css';
 
@@ -25,6 +26,8 @@ export default function App() {
 				<Intro />
 				<hr />
 				<UseTitle />
+				<hr />
+				<UseClick />
 			</div>
 		</>
 	);
