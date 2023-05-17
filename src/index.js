@@ -15,7 +15,7 @@ import { UseBeforeLeave } from './useEffect/useBeforeLeave';
 import { UseFadeIn } from './useEffect/useFadeIn';
 
 import { UseNetwork } from './useEffect/useNetwork';
-
+import { UseScroll } from './useEffect/useScroll';
 import './styles.css';
 
 // function 사용
@@ -62,6 +62,7 @@ export default function App() {
 				<div className='content'>
 					<UseNetwork />
 					<hr />
+					<UseScroll />
 				</div>
 			</div>
 		</>
