@@ -9,6 +9,7 @@ import { UseTitle } from './useEffect/useTitle';
 import { UseClick } from './useEffect/useClick';
 import { UseHover } from './useEffect/useHover';
 import { UseConfirm } from './useEffect/useConfirm';
+import { UsePreventLeave } from './useEffect/usePreventLeave';
 
 import './styles.css';
 
@@ -32,8 +33,12 @@ export default function App() {
 				<UseClick />
 				<hr />
 				<UseHover />
-				<hr />
+			</div>
+			<div className='App'>
 				<UseConfirm />
+				<hr />
+				<UsePreventLeave />
+				<hr />
 			</div>
 		</>
 	);
