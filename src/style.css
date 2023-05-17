@@ -1,12 +1,10 @@
-.App {
-	font-family: sans-serif;
-	text-align: center;
-	display: flex;
-	justify-content: space-between;
-}
-
 .title {
 	text-align: center;
 	margin-right: 10px;
 	border: 3px solid pink;
+}
+
+.content {
+	display: flex;
+	justify-content: space-between;
 }

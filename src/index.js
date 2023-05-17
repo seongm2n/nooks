@@ -11,40 +11,87 @@ import { UseHover } from './useEffect/useHover';
 import { UseConfirm } from './useEffect/useConfirm';
 import { UsePreventLeave } from './useEffect/usePreventLeave';
 import { UseBeforeLeave } from './useEffect/useBeforeLeave';
+import { UseFadeIn } from './useEffect/useFadeIn';
 
 import './styles.css';
 
+// function 사용
 export default function App() {
 	return (
 		<>
-			<div className='App'>
+			<div>
 				<h1 className='title'>useState</h1>
-				<Count />
-				<hr />
-				<UseInput />
-				<hr />
-				<UseTabs />
+				<div className='content'>
+					<Count />
+					<hr />
+					<UseInput />
+					<hr />
+					<UseTabs />
+				</div>
 			</div>
-			<div className='App'>
+			<br />
+			<br />
+			<br />
+			<div>
 				<h1 className='title'>useEffect</h1>
-				<Intro />
-				<hr />
-				<UseTitle />
-				<hr />
-				<UseClick />
-				<hr />
-				<UseHover />
-			</div>
-			<div className='App'>
-				<UseConfirm />
-				<hr />
-				<UsePreventLeave />
-				<hr />
-				<UseBeforeLeave />
+				<div className='content'>
+					<Intro />
+					<hr />
+					<UseTitle />
+					<hr />
+					<UseClick />
+					<hr />
+					<UseHover />
+				</div>
+				<br />
+				<br />
+				<div className='content'>
+					<UseConfirm />
+					<hr />
+					<UsePreventLeave />
+					<hr />
+					<UseBeforeLeave />
+					<hr />
+					<UseFadeIn />
+				</div>
 			</div>
 		</>
 	);
 }
+
+/*
+// class 사용
+class AppUgly extends React.Component {
+  state = {
+    item: 1,
+  };
+  render() {
+    const { item } = this.state;
+    return (
+      <div className="App">
+        <h1>Hello {item}</h1>
+        <h2>Start editing to see some magic happen!</h2>
+        <button onClick={this.incrementItem}>Increment</button>
+        <button onClick={this.decrementItem}>Decrement</button>
+      </div>
+    );
+  }
+  incrementItem = () => {
+    this.setState((state) => {
+      return {
+        item: state.item + 1,
+      };
+    });
+  };
+  decrementItem = () => {
+    this.setState((state) => {
+      return {
+        item: state.item - 1,
+      };
+    });
+  };
+}
+*/
 
 const rootElement = document.getElementById('root');
 ReactDOM.render(<App />, rootElement);

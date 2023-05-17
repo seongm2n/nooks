@@ -17,11 +17,11 @@ const useBeforeLeave = (onBefore) => {
 };
 
 export const UseBeforeLeave = () => {
-	const beforeLife = () => console.log("Pls don't leave");
+	const beforeLife = () => console.log('Pls dont leave');
 	useBeforeLeave(beforeLife);
 	return (
 		<div>
-			<h1>Hello</h1>
+			<h1>BeforeLeave</h1>
 		</div>
 	);
 };

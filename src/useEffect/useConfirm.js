@@ -21,6 +21,7 @@ export const UseConfirm = () => {
 	const confirmDelete = useConfirm('Are you sure', deleteworld, abort);
 	return (
 		<div>
+			<h1>Confirm</h1>
 			<button onClick={confirmDelete}>Delete the world</button>
 		</div>
 	);
