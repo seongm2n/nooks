@@ -10,6 +10,7 @@ import { UseClick } from './useEffect/useClick';
 import { UseHover } from './useEffect/useHover';
 import { UseConfirm } from './useEffect/useConfirm';
 import { UsePreventLeave } from './useEffect/usePreventLeave';
+import { UseBeforeLeave } from './useEffect/useBeforeLeave';
 
 import './styles.css';
 
@@ -39,6 +40,7 @@ export default function App() {
 				<hr />
 				<UsePreventLeave />
 				<hr />
+				<UseBeforeLeave />
 			</div>
 		</>
 	);
