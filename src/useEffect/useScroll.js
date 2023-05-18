@@ -19,7 +19,7 @@ const useScroll = () => {
 export const UseScroll = () => {
 	const { y } = useScroll();
 	return (
-		<div style={{ height: '1000vh' }}>
+		<div style={{ height: '50vh' }}>
 			<h1 style={{ position: 'fixed', color: y > 100 ? 'red' : 'blue' }}>
 				UseScroll
 			</h1>

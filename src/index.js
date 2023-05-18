@@ -16,6 +16,8 @@ import { UseFadeIn } from './useEffect/useFadeIn';
 
 import { UseNetwork } from './useEffect/useNetwork';
 import { UseScroll } from './useEffect/useScroll';
+
+import { UseFullscreen } from './useEffect/useFullscreen';
 import './styles.css';
 
 // function 사용
@@ -63,6 +65,11 @@ export default function App() {
 					<UseNetwork />
 					<hr />
 					<UseScroll />
+					<hr />
+					<hr />
+				</div>
+				<div className='content'>
+					<UseFullscreen />
 				</div>
 			</div>
 		</>
