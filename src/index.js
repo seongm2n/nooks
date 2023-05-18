@@ -19,6 +19,7 @@ import { UseScroll } from './useEffect/useScroll';
 
 import { UseFullscreen } from './useEffect/useFullscreen';
 import { UseNotification } from './useEffect/useNotification';
+import { UseAxios } from './useEffect/useAxios';
 import './styles.css';
 
 // function 사용
@@ -73,6 +74,8 @@ export default function App() {
 					<UseFullscreen />
 					<hr />
 					<UseNotification />
+					<hr />
+					<UseAxios />
 				</div>
 			</div>
 		</>
