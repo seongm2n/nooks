@@ -18,6 +18,7 @@ import { UseNetwork } from './useEffect/useNetwork';
 import { UseScroll } from './useEffect/useScroll';
 
 import { UseFullscreen } from './useEffect/useFullscreen';
+import { UseNotification } from './useEffect/useNotification';
 import './styles.css';
 
 // function 사용
@@ -70,6 +71,8 @@ export default function App() {
 				</div>
 				<div className='content'>
 					<UseFullscreen />
+					<hr />
+					<UseNotification />
 				</div>
 			</div>
 		</>
